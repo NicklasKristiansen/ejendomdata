@@ -11,9 +11,11 @@ build/
 env/
 ENV/
 venv/
+.env
 
 # VS Code settings
 .vscode/
+interactive.py
 
 # Pytest cache
 .pytest_cache/

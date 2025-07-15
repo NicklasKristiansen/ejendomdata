@@ -1,0 +1,326 @@
+[
+    {
+        "id": "0a3f509d-d0ec-32b8-e044-0003ba298018",
+        "kvhx": "01011356__32__1___3",
+        "status": 1,
+        "darstatus": 3,
+        "href": "https://api./0a3f509d-d0ec-32b8-e044-0003ba298018",
+        "historik": {
+            "oprettet": "2000-02-05T20:18:02.000",
+            "\u00e6ndret": "2000-02-05T20:18:02.000",
+            "ikrafttr\u00e6delse": "2000-02-05T20:18:02.000",
+            "nedlagt": null
+        },
+        "etage": "1",
+        "d\u00f8r": "3",
+        "adressebetegnelse": "Dronningens Tv\u00e6rgade 32, 1. 3, 1302 K\u00f8benhavn K",
+        "adgangsadresse": {
+            "href": "https://api.dataforsyningen.dk/adgangsadresser/0a3f507a-5e59-32b8-e044-0003ba298018",
+            "id": "0a3f507a-5e59-32b8-e044-0003ba298018",
+            "adressebetegnelse": "Dronningens Tv\u00e6rgade 32, 1302 K\u00f8benhavn K",
+            "kvh": "01011356__32",
+            "status": 1,
+            "darstatus": 3,
+            "vejstykke": {
+                "href": "https://api.dataforsyningen.dk/vejstykker/101/1356",
+                "navn": "Dronningens Tv\u00e6rgade",
+                "adresseringsnavn": "Dronningens Tv\u00e6rgade",
+                "kode": "1356"
+            },
+            "husnr": "32",
+            "navngivenvej": {
+                "href": "https://api.dataforsyningen.dk/navngivneveje/1a5764b2-4b4a-44a3-8164-eb35e77c7044",
+                "id": "1a5764b2-4b4a-44a3-8164-eb35e77c7044"
+            },
+            "supplerendebynavn": null,
+            "supplerendebynavn2": null,
+            "postnummer": {
+                "href": "https://api.dataforsyningen.dk/postnumre/1302",
+                "nr": "1302",
+                "navn": "K\u00f8benhavn K"
+            },
+            "stormodtagerpostnummer": null,
+            "kommune": {
+                "href": "https://api.dataforsyningen.dk/kommuner/0101",
+                "kode": "0101",
+                "navn": "K\u00f8benhavn"
+            },
+            "ejerlav": {
+                "kode": 2000166,
+                "navn": "Sankt Ann\u00e6 Vester Kvarter, K\u00f8benhavn"
+            },
+            "esrejendomsnr": "0",
+            "matrikelnr": "654",
+            "historik": {
+                "oprettet": "2000-02-05T20:18:02.000",
+                "\u00e6ndret": "2018-07-04T18:00:00.000",
+                "ikrafttr\u00e6delse": "2000-02-05T20:18:02.000",
+                "nedlagt": null
+            },
+            "adgangspunkt": {
+                "id": "0a3f507a-5e59-32b8-e044-0003ba298018",
+                "koordinater": [
+                    12.58524553,
+                    55.68437441
+                ],
+                "h\u00f8jde": 4,
+                "n\u00f8jagtighed": "A",
+                "kilde": 5,
+                "tekniskstandard": "TD",
+                "tekstretning": 200,
+                "\u00e6ndret": "2002-04-05T00:00:00.000"
+            },
+            "vejpunkt": {
+                "id": "11cefeae-af45-11e7-847e-066cff24d637",
+                "kilde": "Ekstern",
+                "n\u00f8jagtighed": "B",
+                "tekniskstandard": "V0",
+                "koordinater": [
+                    12.58509431,
+                    55.68441174
+                ],
+                "\u00e6ndret": "2018-05-03T14:08:02.125"
+            },
+            "DDKN": {
+                "m100": "100m_61767_7253",
+                "km1": "1km_6176_725",
+                "km10": "10km_617_72"
+            },
+            "sogn": {
+                "href": "https://api.dataforsyningen.dk/sogne/7038",
+                "kode": "7038",
+                "navn": "Frederiks"
+            },
+            "region": {
+                "href": "https://api.dataforsyningen.dk/regioner/1084",
+                "kode": "1084",
+                "navn": "Region Hovedstaden"
+            },
+            "landsdel": {
+                "href": "https://api.dataforsyningen.dk/landsdele/DK011",
+                "nuts3": "DK011",
+                "navn": "Byen K\u00f8benhavn"
+            },
+            "retskreds": {
+                "href": "https://api.dataforsyningen.dk/retskredse/1101",
+                "kode": "1101",
+                "navn": "K\u00f8benhavns Byret"
+            },
+            "politikreds": {
+                "href": "https://api.dataforsyningen.dk/politikredse/1470",
+                "kode": "1470",
+                "navn": "K\u00f8benhavns Politi"
+            },
+            "opstillingskreds": {
+                "href": "https://api.dataforsyningen.dk/opstillingskredse/0003",
+                "kode": "0003",
+                "navn": "Indre By"
+            },
+            "afstemningsomr\u00e5de": {
+                "href": "https://api.dataforsyningen.dk/afstemningsomraader/101/14",
+                "nummer": "14",
+                "navn": "3. \u00d8st"
+            },
+            "storkreds": {
+                "href": "https://api.dataforsyningen.dk/storkredse/1",
+                "nummer": "1",
+                "navn": "K\u00f8benhavn"
+            },
+            "valglandsdel": {
+                "href": "https://api.dataforsyningen.dk/valglandsdele/A",
+                "bogstav": "A",
+                "navn": "Hovedstaden"
+            },
+            "zone": "Udfaset",
+            "jordstykke": {
+                "href": "https://api.dataforsyningen.dk/jordstykker/2000166/654",
+                "ejerlav": {
+                    "kode": 2000166,
+                    "navn": "Sankt Ann\u00e6 Vester Kvarter, K\u00f8benhavn",
+                    "href": "https://api.dataforsyningen.dk/ejerlav/2000166"
+                },
+                "matrikelnr": "654",
+                "esrejendomsnr": "0"
+            },
+            "bebyggelser": [
+                {
+                    "id": "12337669-d99e-6b98-e053-d480220a5a3f",
+                    "kode": null,
+                    "type": "bydel",
+                    "navn": "Indre By",
+                    "href": "https://api.dataforsyningen.dk/bebyggelser/12337669-d99e-6b98-e053-d480220a5a3f"
+                },
+                {
+                    "id": "290f85b8-8c7a-6fd1-e053-d480220af996",
+                    "kode": 18368,
+                    "type": "by",
+                    "navn": "K\u00f8benhavn",
+                    "href": "https://api.dataforsyningen.dk/bebyggelser/290f85b8-8c7a-6fd1-e053-d480220af996"
+                }
+            ],
+            "brofast": true
+        }
+    },
+    {
+        "id": "0a3f509d-d0f2-32b8-e044-0003ba298018",
+        "kvhx": "01011356__32__3___1",
+        "status": 1,
+        "darstatus": 3,
+        "href": "https://api./0a3f509d-d0f2-32b8-e044-0003ba298018",
+        "historik": {
+            "oprettet": "2000-02-05T20:18:02.000",
+            "\u00e6ndret": "2000-02-05T20:18:02.000",
+            "ikrafttr\u00e6delse": "2000-02-05T20:18:02.000",
+            "nedlagt": null
+        },
+        "etage": "3",
+        "d\u00f8r": "1",
+        "adressebetegnelse": "Dronningens Tv\u00e6rgade 32, 3. 1, 1302 K\u00f8benhavn K",
+        "adgangsadresse": {
+            "href": "https://api.dataforsyningen.dk/adgangsadresser/0a3f507a-5e59-32b8-e044-0003ba298018",
+            "id": "0a3f507a-5e59-32b8-e044-0003ba298018",
+            "adressebetegnelse": "Dronningens Tv\u00e6rgade 32, 1302 K\u00f8benhavn K",
+            "kvh": "01011356__32",
+            "status": 1,
+            "darstatus": 3,
+            "vejstykke": {
+                "href": "https://api.dataforsyningen.dk/vejstykker/101/1356",
+                "navn": "Dronningens Tv\u00e6rgade",
+                "adresseringsnavn": "Dronningens Tv\u00e6rgade",
+                "kode": "1356"
+            },
+            "husnr": "32",
+            "navngivenvej": {
+                "href": "https://api.dataforsyningen.dk/navngivneveje/1a5764b2-4b4a-44a3-8164-eb35e77c7044",
+                "id": "1a5764b2-4b4a-44a3-8164-eb35e77c7044"
+            },
+            "supplerendebynavn": null,
+            "supplerendebynavn2": null,
+            "postnummer": {
+                "href": "https://api.dataforsyningen.dk/postnumre/1302",
+                "nr": "1302",
+                "navn": "K\u00f8benhavn K"
+            },
+            "stormodtagerpostnummer": null,
+            "kommune": {
+                "href": "https://api.dataforsyningen.dk/kommuner/0101",
+                "kode": "0101",
+                "navn": "K\u00f8benhavn"
+            },
+            "ejerlav": {
+                "kode": 2000166,
+                "navn": "Sankt Ann\u00e6 Vester Kvarter, K\u00f8benhavn"
+            },
+            "esrejendomsnr": "0",
+            "matrikelnr": "654",
+            "historik": {
+                "oprettet": "2000-02-05T20:18:02.000",
+                "\u00e6ndret": "2018-07-04T18:00:00.000",
+                "ikrafttr\u00e6delse": "2000-02-05T20:18:02.000",
+                "nedlagt": null
+            },
+            "adgangspunkt": {
+                "id": "0a3f507a-5e59-32b8-e044-0003ba298018",
+                "koordinater": [
+                    12.58524553,
+                    55.68437441
+                ],
+                "h\u00f8jde": 4,
+                "n\u00f8jagtighed": "A",
+                "kilde": 5,
+                "tekniskstandard": "TD",
+                "tekstretning": 200,
+                "\u00e6ndret": "2002-04-05T00:00:00.000"
+            },
+            "vejpunkt": {
+                "id": "11cefeae-af45-11e7-847e-066cff24d637",
+                "kilde": "Ekstern",
+                "n\u00f8jagtighed": "B",
+                "tekniskstandard": "V0",
+                "koordinater": [
+                    12.58509431,
+                    55.68441174
+                ],
+                "\u00e6ndret": "2018-05-03T14:08:02.125"
+            },
+            "DDKN": {
+                "m100": "100m_61767_7253",
+                "km1": "1km_6176_725",
+                "km10": "10km_617_72"
+            },
+            "sogn": {
+                "href": "https://api.dataforsyningen.dk/sogne/7038",
+                "kode": "7038",
+                "navn": "Frederiks"
+            },
+            "region": {
+                "href": "https://api.dataforsyningen.dk/regioner/1084",
+                "kode": "1084",
+                "navn": "Region Hovedstaden"
+            },
+            "landsdel": {
+                "href": "https://api.dataforsyningen.dk/landsdele/DK011",
+                "nuts3": "DK011",
+                "navn": "Byen K\u00f8benhavn"
+            },
+            "retskreds": {
+                "href": "https://api.dataforsyningen.dk/retskredse/1101",
+                "kode": "1101",
+                "navn": "K\u00f8benhavns Byret"
+            },
+            "politikreds": {
+                "href": "https://api.dataforsyningen.dk/politikredse/1470",
+                "kode": "1470",
+                "navn": "K\u00f8benhavns Politi"
+            },
+            "opstillingskreds": {
+                "href": "https://api.dataforsyningen.dk/opstillingskredse/0003",
+                "kode": "0003",
+                "navn": "Indre By"
+            },
+            "afstemningsomr\u00e5de": {
+                "href": "https://api.dataforsyningen.dk/afstemningsomraader/101/14",
+                "nummer": "14",
+                "navn": "3. \u00d8st"
+            },
+            "storkreds": {
+                "href": "https://api.dataforsyningen.dk/storkredse/1",
+                "nummer": "1",
+                "navn": "K\u00f8benhavn"
+            },
+            "valglandsdel": {
+                "href": "https://api.dataforsyningen.dk/valglandsdele/A",
+                "bogstav": "A",
+                "navn": "Hovedstaden"
+            },
+            "zone": "Udfaset",
+            "jordstykke": {
+                "href": "https://api.dataforsyningen.dk/jordstykker/2000166/654",
+                "ejerlav": {
+                    "kode": 2000166,
+                    "navn": "Sankt Ann\u00e6 Vester Kvarter, K\u00f8benhavn",
+                    "href": "https://api.dataforsyningen.dk/ejerlav/2000166"
+                },
+                "matrikelnr": "654",
+                "esrejendomsnr": "0"
+            },
+            "bebyggelser": [
+                {
+                    "id": "12337669-d99e-6b98-e053-d480220a5a3f",
+                    "kode": null,
+                    "type": "bydel",
+                    "navn": "Indre By",
+                    "href": "https://api.dataforsyningen.dk/bebyggelser/12337669-d99e-6b98-e053-d480220a5a3f"
+                },
+                {
+                    "id": "290f85b8-8c7a-6fd1-e053-d480220af996",
+                    "kode": 18368,
+                    "type": "by",
+                    "navn": "K\u00f8benhavn",
+                    "href": "https://api.dataforsyningen.dk/bebyggelser/290f85b8-8c7a-6fd1-e053-d480220af996"
+                }
+            ],
+            "brofast": true
+        }
+    }
+]
