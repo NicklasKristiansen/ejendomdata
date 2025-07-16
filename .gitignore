@@ -11,11 +11,9 @@ build/
 env/
 ENV/
 venv/
-.env
 
 # VS Code settings
 .vscode/
-interactive.py
 
 # Pytest cache
 .pytest_cache/
@@ -26,3 +24,9 @@ interactive.py
 # Mac/Windows generelle filer
 .DS_Store
 Thumbs.db
+
+
+# my things
+.env
+interactive.py
+*.json
