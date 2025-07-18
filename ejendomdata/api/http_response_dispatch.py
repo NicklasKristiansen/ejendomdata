@@ -1,3 +1,4 @@
+from __future__ import annotations
 import functools
 import types
 import httpx
@@ -8,16 +9,16 @@ def response_dispatch(func):
     registry = dict()
     registry[NotImplemented] = func
     
-    @functools.wraps(func)
     def dispatch(response: httpx.Response):
         return registry.get(response.status_code, registry[NotImplemented])
         
     
-    def register(status_code: int):
+    def register(*status_codes: int):
         def decorator(handler_func):
-            if status_code in registry:
-                raise ValueError(f"Handler already registered for status code {status_code}")
-            registry[status_code] = handler_func
+            for code in status_codes:
+                if code in registry:
+                    raise ValueError(f"Handler already registered for status code {code}")
+                registry[code] = handler_func
             return handler_func
         return decorator
     
