@@ -10,6 +10,7 @@ class PropertyAddress:
         self._bfe = None
         self._address = None
         self._general_info = None
+        self._entire_property_info = None
         self._sales_history = None
         self._address_history = None
         
@@ -22,15 +23,18 @@ class PropertyAddress:
             raise ValueError(f"invalid address id: '{self._address_id}'")
     
     def _populate_general_info(self):
-        self._general_info = api.get_address_info(self.bfe)
-        self._address = self._general_info["GeneralInfoSFE"]["beligenhed"] # TODO: handle different types of properties not only SFE
+        self._entire_property_info = api.get_general_info(self.bfe)
+        self._general_info = api.parse_general_info(self._entire_property_info, self.bfe)
+        self._address = self._general_info["beligenhed"]
     
     
     def __eq__(self, other: PropertyAddress):
         return self.address_id == other.address_id
     
+    
     def __repr__(self):
         return self.address
+    
     
     @property
     def address_id(self):
@@ -56,6 +60,14 @@ class PropertyAddress:
         if self._general_info is None:
             self._populate_general_info()
         return self._general_info
+           
+    
+    @property
+    def entire_property_info(self):
+        if self._entire_property_info is None:
+            self._populate_general_info()
+        return self._entire_property_info
+           
            
     @property
     def address_history(self):
