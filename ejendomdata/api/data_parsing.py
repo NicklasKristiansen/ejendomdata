@@ -44,11 +44,11 @@ def parse_general_info(general_info: dict[str, None | int | dict], bfe: int | st
         if general_info["GeneralInfoSFE"]["bfeNummer"] == int(bfe):
             return general_info["GeneralInfoSFE"]
     
-    elif general_info["GeneralInfoBPFG"] is not None:
+    if general_info["GeneralInfoBPFG"] is not None:
         if general_info["GeneralInfoBPFG"]["bfeNummer"] == int(bfe):
             return general_info["GeneralInfoBPFG"]
     
-    elif general_info["GeneralInfoEJL"] is not None:
+    if general_info["GeneralInfoEJL"] is not None:
         if general_info["GeneralInfoEJL"]["bfeNummer"] == int(bfe):
             return general_info["GeneralInfoEJL"]
     return dict()
