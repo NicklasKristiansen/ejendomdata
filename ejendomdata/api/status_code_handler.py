@@ -9,7 +9,7 @@ def status_code_handler(response: httpx.Response) -> httpx.Response:
     return response.raise_for_status()
 
 @status_code_handler.register(429, 503, 408, 500, 502, 504)
-def handle_downtime(response: httpx.Response, *, wait_time=0.5, max_tries=5):
+def handle_downtime(response: httpx.Response, *, wait_time=10, max_tries=3):
     request = response.request
     tries = 1
 
@@ -26,7 +26,7 @@ def handle_downtime(response: httpx.Response, *, wait_time=0.5, max_tries=5):
                 logger.error(f"Retry failed with error: {e}")
                 raise e
             tries += 1
-            wait_time *= 2
+
 
     if response.status_code not in (200, 202, 204):
         raise httpx.HTTPStatusError(

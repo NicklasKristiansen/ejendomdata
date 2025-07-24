@@ -1,5 +1,5 @@
 from __future__ import annotations
-from .. import api
+from ..api import api, data_parsing
 import uuid
 
 
@@ -13,6 +13,7 @@ class PropertyAddress:
         self._entire_property_info = None
         self._sales_history = None
         self._address_history = None
+        self._valuation_history = None
         
     def _validate_address_uuid(self):
         try:
@@ -78,8 +79,15 @@ class PropertyAddress:
     @property
     def sales_history(self):
         if self._sales_history is None:
-            self._sales_history = api.parse_sales_history(self.address_history)
+            self._sales_history = data_parsing.parse_sales_history(self.address_history)
         return self._sales_history
+    
+    @property
+    def valuation_history(self):
+        if self._valuation_history is None:
+            self._valuation_history = data_parsing.parse_valuation_history(self.address_history)
+        return self._valuation_history
+        
         
         
 
