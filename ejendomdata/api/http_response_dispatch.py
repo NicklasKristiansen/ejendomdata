@@ -28,7 +28,7 @@ def response_dispatch(func):
         response = args[0]
         if not isinstance(response, httpx.Response):
             raise TypeError(f"Expected httpx.Response, got {type(response).__name__}")
-        return dispatch(response.status_code)(*args, **kwargs)
+        return dispatch(response)(*args, **kwargs)
     
     wrapper.register = register
     wrapper.dispatch = dispatch
