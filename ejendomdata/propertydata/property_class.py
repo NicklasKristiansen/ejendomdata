@@ -25,7 +25,7 @@ class PropertyAddress:
     
     def _populate_general_info(self):
         self._entire_property_info = api.get_general_info(self.bfe)
-        self._general_info = api.parse_general_info(self._entire_property_info, self.bfe)
+        self._general_info = data_parsing.parse_general_info(self._entire_property_info, self.bfe)
         self._address = self._general_info["beligenhed"]
     
     
