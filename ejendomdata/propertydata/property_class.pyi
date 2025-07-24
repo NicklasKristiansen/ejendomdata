@@ -19,11 +19,9 @@ class PropertyAddress:
     @property
     def general_info(self) -> dict[str, int | str | list]: ...
 
-    
     @property
     def entire_property_info(self) -> dict[str, dict[str, str | int | list] | int | None]: ...
-           
-           
+              
     @property
     def address_history(self) -> dict[str, list, dict, None, int]: ...
             
