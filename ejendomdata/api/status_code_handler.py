@@ -4,7 +4,7 @@ import logging, time, httpx
 logger = logging.getLogger(__name__)
 __all__ = ["status_code_handler"]
 
-@response_dispatch()
+@response_dispatch
 def status_code_handler(response: httpx.Response) -> httpx.Response:
     return response.raise_for_status()
 
